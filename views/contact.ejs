@@ -1,0 +1,31 @@
+<%- include("partials/header"); -%>
+<div class="contact-container">
+    <div class="contact-form">
+      <h1>Contact Us</h1>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="contact-image">
+      <img src="profile pic.jpg" alt="Contact Image" width="200">
+    </div>
+    <div class="contact-info">
+      <ul>
+        <li><strong>Email:</strong> demo@example.com</li>
+        <li><strong>Address:</strong> 123 Main Street, City, Country</li>
+      </ul>
+    </div>
+  </div>
+<%- include("partials/footer"); -%>
